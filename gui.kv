@@ -1,0 +1,30 @@
+BoxLayout:
+    orientation: 'vertical'
+
+
+    Label:
+        text: 'Current trip location: '
+
+    Spinner:
+
+    TextInput:
+
+    Label:
+        id: output_homeCountry
+        text: ''
+
+
+    TextInput:
+
+    Label:
+        id: output_date
+        text: 'Today Is: '
+
+    Label:
+        id: verify_label
+        text: 'Trip details accepted'
+
+
+    Button:
+        text: 'Update Currency'
+        on_press: app.handle_update()

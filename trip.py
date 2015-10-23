@@ -1,3 +1,6 @@
+from kivy.app import App
+from kivy.lang import Builder
+
 class Country:
     def __init__(self, name, code, symbol):
         self.name = name
